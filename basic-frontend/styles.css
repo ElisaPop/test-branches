@@ -15,10 +15,10 @@
 	border-style: solid;
 	width: 50%;
 	display:inline-block;
-	border-width: 2px;
-	padding:1px 16px;
+	border-width: 0.2rem;
+	padding:0.1rem 1.6rem;
 	margin-left:1%;
-	margin-bottom:1.5%;
+	margin-bottom:11%;
 	overflow-y: auto;
 	height: auto;
 }
@@ -26,12 +26,12 @@
 .inside-content{
 	background-color: #e6e6ff;
 	display:inline-block;
-	padding:1px 16px;
+	padding:0.1rem 1.6rem;
 }
 
 .tab1-left{
 	width: 100%;
-	padding:1px 16px;
+	padding:0.1rem 1.6rem;
 	overflow-y: auto;
 	height: auto;
 	margin-bottom:75%;
@@ -51,8 +51,8 @@
 .life-goal-content{
 	display: block;
     color: #000;
-	border: 3px;
-    padding: 8px 16px;
+	border: 0.3rem;
+    padding: 0.8rem 1.6rem;
 	color: #F5F6FE;
     text-decoration: none;
 	display: inline-block;
@@ -78,7 +78,7 @@
 
 .active {
 	display: block;
-	padding: 10px;
+	padding: 1rem;
 	background-color: #47487F;
 	color: #F5F6FE;
 }
@@ -88,23 +88,17 @@
 }
 
 .rectangle{
-	 width: 20px;
-	 height: 20px;
-	 margin: 25px;
-	 border: 1px solid rgba(0, 0, 0, .2);
+	 width: 2rem;
+	 height: 2rem;
+	 margin: 2.5rem;
+	 border: 0.1rem solid rgba(0, 0, 0, .2);
 }
 
 .lila {
   background: #cc99ff;
 }
 
-.delete{
-	float: right;
-	margin-right:3%;
-	margin-top:3%;
-}
-
-.edit{
+.button{
 	float: right;
 	margin-right:3%;
 	margin-top:3%;
