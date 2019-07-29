@@ -1,0 +1,105 @@
+.tab-content {
+    display: none;
+	background-color: #e6e6ff;
+	
+}
+
+.tab-content:target {
+    display: block;
+}
+
+
+.tab1-right {
+	background-color: #ffffff;
+	float:left;
+	border-style: solid;
+	width: 50%;
+	display:inline-block;
+	border-width: 0.2rem;
+	padding:0.1rem 1.6rem;
+	margin-left:1%;
+	margin-bottom:11%;
+	overflow-y: auto;
+	height: auto;
+}
+
+.inside-content{
+	background-color: #e6e6ff;
+	display:inline-block;
+	padding:0.1rem 1.6rem;
+}
+
+.tab1-left{
+	width: 100%;
+	padding:0.1rem 1.6rem;
+	overflow-y: auto;
+	height: auto;
+	margin-bottom:75%;
+}
+
+.life-goals-list{
+ 	list-style-type: none;
+  	padding: 0;
+  	overflow: auto;
+	
+	width: 100%;
+	background-color: #47487F;
+	color: #F5F6FE;
+	height: 100%;
+}
+
+.life-goal-content{
+	display: block;
+    color: #000;
+	border: 0.3rem;
+    padding: 0.8rem 1.6rem;
+	color: #F5F6FE;
+    text-decoration: none;
+	display: inline-block;
+}
+
+
+.main-menu{
+  	list-style-type: none;
+ 	margin: 0;
+ 	padding: 0;
+ 	overflow: hidden;
+ 	background-color: #ACADD6;
+}
+
+.horizontal-li {
+	display: inline;
+ 	float: left;
+}
+
+.vertical-li {
+	display: block;
+}
+
+.active {
+	display: block;
+	padding: 1rem;
+	background-color: #47487F;
+	color: #F5F6FE;
+}
+
+.spacing {
+	padding-left:2em;
+}
+
+.rectangle{
+	 width: 2rem;
+	 height: 2rem;
+	 margin: 2.5rem;
+	 border: 0.1rem solid rgba(0, 0, 0, .2);
+}
+
+.lila {
+  background: #cc99ff;
+}
+
+.button{
+	float: right;
+	margin-right:3%;
+	margin-top:3%;
+}
